@@ -14,6 +14,9 @@
                     colors: {
                         clifford: '#da373d',
                         body_bg: '#F4F4F4',
+                        footer_bg: '#1C1C1C',
+                        a_tag: '#E9E9E9',
+                        p_tag: '#737373',
                     }
                 }
             }
@@ -21,7 +24,7 @@
     </script>
 </head>
 
-<body class="bg-[#F4F4F4] ">
+<body class="bg-body_bg">
     <header class="bg-[#ffffff] pb-10 md:px-20 px-5 ">
         <!-- nav-section -->
         <div class="navbar bg-base-100 ">
@@ -30,6 +33,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                 </svg>
                 Rinterio</a>
+
             <div class="navbar-start">
 
             </div>
@@ -47,23 +51,23 @@
                 <div class="flex  ">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor"
-                        class="size-10 text-[#737373] bg-[#ffffff] border border-[#E9E9E9] rounded-full m-3 hidden lg:flex">
+                        class="size-10   text-[#737373] bg-[#ffffff] border border-[#E9E9E9] rounded-full m-3 hidden shadow-lg lg:flex">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                     </svg>
-
+                </div>
+                <div class="flex">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor"
-                        class="size-10 text-[#737373] bg-[#ffffff] border border-[#E9E9E9] rounded-full m-3 hidden lg:flex">
+                        class="size-10 text-[#737373] bg-[#ffffff] border border-[#E9E9E9] rounded-full m-3  hidden shadow-lg lg:flex">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                     </svg>
-
                 </div>
 
 
                 <a
-                    class=" hidden lg:flex cursor-pointer bg-[#ABEF5F] px-3.5 py-2 rounded-3xl text-xl box-border font-bold  ">
+                    class=" hidden lg:flex cursor-pointer bg-[#ABEF5F]  px-5 py-3 rounded-3xl text-xl box-border font-bold  ">
                     Book
                     Consult <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-8 text-[#ffffff] bg-[#1C1C1C] rounded-full mx-2 ">
@@ -81,7 +85,7 @@
 
                     </div>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] -ml-40  mt-3 w-52 p-2 shadow">
+                        class="menu menu-sm dropdown-content bg-base-100  rounded-box z-[1] -ml-40  mt-3 w-52 p-2 shadow">
                         <li><a>Home</a></li>
                         <li><a>Services</a></li>
                         <li><a>Portfolio</a></li>
@@ -109,10 +113,10 @@
                 </P>
             </div>
             <button
-                class="bg-[#ABEF5F80] px-5 py-3  rounded-3xl text-lg box-border font-bold inline-flex border  border-[#ABEF5F]">
+                class="bg-[#ABEF5F80] px-5 py-3 w-full md:w-fit text-center justify-center items-center rounded-3xl text-xl box-border font-bold inline-flex border  border-[#ABEF5F]">
                 View
                 Details <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-7 font-bold bg-[#ABEF5F] rounded-full mx-2 ">
+                    stroke="currentColor" class="size-7 font-bold bg-[#ABEF5F] rounded-full text-center mx-2 ">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                 </svg>
 
@@ -120,18 +124,17 @@
         </div>
     </header>
 
-    <main class="md:px-24 px-5">
+    <main class=" ">
         <!-- about us -->
-        <section class=" container m-auto py-12 ">
+        <section class=" container m-auto p-6 md:px-20 px-5">
 
             <img class=" hidden lg:flex pb-3 -ml-8 pt-5" src=" ./assets/Vector.png" alt="">
 
             <div class="flex md:flex-row flex-col justify-between   m-auto gap-2 ">
                 <div class=" grid gap-y-7">
-
                     <div class="flex items-center md:items-start flex-col">
                         <button
-                            class="bg-[#ffffff] px-3 py-1   w-fit inline-flex text-3x1 box-border font-bold rounded-full ">
+                            class="bg-[#ffffff] px-3 py-1 shadow-xl  w-fit inline-flex text-3x1 box-border font-bold rounded-full ">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="size-6 mx-2">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -150,7 +153,7 @@
                         </p>
                     </div>
 
-                    <div class=" bg-[#ffffff] rounded-2xl grid grid-flow-col gap-x-1 pt-7 p-7">
+                    <div class=" bg-[#ffffff]  rounded-2xl grid grid-flow-col gap-x-1 pt-7 p-7">
                         <img src="./assets/commercial.png" alt="">
                         <div>
                             <h1 class="font-bold md:text-xl text-base ">Commercial</h1>
@@ -169,7 +172,7 @@
 
                     </div>
                 </div>
-                <div class="w-full md:w-1/2 flex justify-center items-center">
+                <div class="w-full  md:w-1/2 flex justify-center items-center">
                     <img src=" ./assets/Rectangle.png" alt="">
                 </div>
 
@@ -178,10 +181,10 @@
         </section>
 
         <!-- How we works -->
-        <section class="container m-auto pb-12">
+        <section class="container m-auto  p-6 md:px-20 px-5">
             <div class="text-center  ">
                 <button
-                    class=" bg-[#ffffff] px-3 py-1  inline-flex text-3x1 box-border font-bold rounded-full mx-2 gap-1">
+                    class=" bg-[#ffffff] shadow-xl px-3 py-1  inline-flex text-3x1 box-border font-bold rounded-full mx-2 gap-1">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -223,15 +226,98 @@
             </div>
         </section>
 
-        <!--  -->
-        <section>
+        <!-- Explore our Latest works -->
+        <section class=" container m-auto  md:px-20 px-5  bg-slate-400 py-6 my-5">
+            <div class="text-center">
+                <button
+                    class=" bg-[#ABEF5F33] shadow-xl px-3 py-1  inline-flex text-3x1 box-border font-bold rounded-full mx-2 gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>Explore our Latest works
+                </button>
+                <h1 class="  md:text-5xl text-3xl  text-[#212121] font-bold py-3">Our Latest Portfolio</h1>
+                <p class="p-6 text-[#494949] md:text-base text-sm ">The barn house captivates with its blend of rustic
+                    charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
+                </p>
+            </div>
+        </section>
 
+        <!--Let’s Connect-->
+        <section class="bg-[url('.bg.jpg')] text-center align md:px-20 px-5 bg-red-200 my-5 p-6">
+            <div class="text-center">
+                <button
+                    class=" bg-[#ABEF5F33] shadow-xl px-3 py-1  inline-flex text-3x1 box-border font-bold rounded-full mx-2 gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg> Let’s Connect
+                </button>
+                <h1 class="  md:text-5xl text-3xl  text-[#212121] font-bold py-3"> Let’s Discuss Next Project</h1>
+                <p class="p-6 text-[#494949] md:text-base text-sm ">The barn house captivates with its blend of rustic
+                    charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
+                </p>
+            </div>
+            <div>
+                <div>
+                    <div class="w-1/2 ">
+                        <input type="text" name="" placeholder="fast name" id="">
+                        <input type="text" name="" placeholder="fast name" id="">
+                    </div>
+                    <div class="w-1/2">
+                        <input type="text" name="" placeholder="fast name" id="">
+                        <input type="text" name="" placeholder="fast name" id="">
+
+                    </div>
+                </div>
+
+
+                <button
+                    class="flex text-center justify-center items-center w-full rounded-full cursor-pointer bg-[#ABEF5F] px-3.5 py-2   text-xl box-border font-bold  ">
+                    Sand Mail <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-8 text-[#ffffff] bg-[#1C1C1C] rounded-full mx-2 ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>
+                </button>
+            </div>
         </section>
 
     </main>
 
-    <footer>
+    <!-- footer section -->
+    <footer class="bg-[#1C1C1C]   text-center  items-center md:px-20 px-5 py-12">
+        <div>
+            <button  a class=" text-[#ffffff] text-center justify-center items-center rounded-3xl text-3xl box-border font-bold inline-flex"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="size-8  bg-[#ABEF5F] text-[#1C1C1C] rounded-full m-2 ">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+            Rinterio</a>
+            </button>
 
+            <p class="py-6 text-[#737373] md:text-base text-sm ">
+                The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring
+                weathered wood, sleek metal accents.
+            </p>
+        </div>
+
+        <div class="text-[#E9E9E9]">
+            <ul class="flex md:flex-row flex-col md:gap-28 gap-8 justify-center pb-6" >
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+            </ul>
+        </div>
+
+        <button class="bg-[#ABEF5F] px-5 py-3 w-full md:w-fit text-center justify-center items-center rounded-3xl text-lg box-border font-bold inline-flex">
+            Book Consult<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-7 font-bold text-[#ffffff] bg-[#1C1C1C] rounded-full text-center mx-2 ">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+
+            </button>
     </footer>
 
 </body>
