@@ -25,9 +25,9 @@
 </head>
 
 <body class="bg-body_bg">
-    <header class="bg-[#ffffff] pb-10 md:px-20 px-5 ">
+    <header class="bg-[#ffffff] pb-10 ">
         <!-- nav-section -->
-        <div class="navbar bg-base-100 ">
+        <div class="navbar bg-base-100 md:px-20 px-5 ">
             <a class="  text-3xl font-bold"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     stroke-width="1.5" stroke="currentColor" class="size-8  bg-[#ABEF5F] rounded-full m-2 ">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
@@ -131,7 +131,7 @@
             <img class=" hidden lg:flex pb-3 -ml-8 pt-5" src=" ./assets/Vector.png" alt="">
 
             <div class="flex md:flex-row flex-col justify-between   m-auto gap-2 ">
-                <div class=" grid gap-y-7">
+                <div class=" grid gap-y-7 w-full  md:w-1/2">
                     <div class="flex items-center md:items-start flex-col">
                         <button
                             class="bg-[#ffffff] px-3 py-1 shadow-xl  w-fit inline-flex text-3x1 box-border font-bold rounded-full ">
@@ -194,7 +194,7 @@
                     Our Works Process
                 </h1>
 
-                <p class="p-6 text-[#494949] md:text-base text-sm ">
+                <p class="p-3 text-[#494949] md:text-base text-sm ">
                     The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring
                     weathered wood, sleek metal accents.
                 </p>
@@ -227,7 +227,7 @@
         </section>
 
         <!-- Explore our Latest works -->
-        <section class=" container m-auto  md:px-20 px-5  bg-slate-400 py-6 my-5">
+        <section class=" container m-auto  md:px-20 px-5 py-6 my-5">
             <div class="text-center">
                 <button
                     class=" bg-[#ABEF5F33] shadow-xl px-3 py-1  inline-flex text-3x1 box-border font-bold rounded-full mx-2 gap-1">
@@ -241,10 +241,44 @@
                     charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
                 </p>
             </div>
+
+            <div class="justify-center">
+                <div class="flex">
+                    <div class="class= flex rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] m-6 p-6 ">
+                        <img src="./assets/img1.png" alt="">
+                    </div>
+                    <div>
+                        <h1 class="md:text-xl text-base font-bold py-2 text-[#1C1C1C]">Commercial</h1>
+                        <p class="text-[#737373] text-base">The barn house captivates with its blend of rustic charm and
+                            modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                    </div>
+                </div>
+
+
+                <div class="class= flex rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] m-6 p-6 ">
+                    <img src="./assets/img2.png" alt="">
+                </div>
+                <div class="class= flex rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] m-6 p-6 ">
+                    <img src="./assets/img5.png" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="class= flex rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] m-6 p-6 ">
+                    <img src="./assets/img4.png" alt="">
+                </div>
+                <div class="class= flex rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] m-6 p-6 ">
+                    <img src="./assets/img3.png" alt="">
+                </div>
+                <div class="class= flex rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] m-6 p-6 ">
+                    <img src="./assets/img5.png" alt="">
+                </div>
+            </div>
+
+
         </section>
 
         <!--Let’s Connect-->
-        <section class="bg-[url('.bg.jpg')] text-center align md:px-20 px-5 bg-red-200 my-5 p-6">
+        <section class="bg-[url('.bg.jpg')] text-center align md:px-20 px-5 py-24">
             <div class="text-center">
                 <button
                     class=" bg-[#ABEF5F33] shadow-xl px-3 py-1  inline-flex text-3x1 box-border font-bold rounded-full mx-2 gap-1">
@@ -259,21 +293,25 @@
                 </p>
             </div>
             <div>
-                <div>
-                    <div class="w-1/2 ">
-                        <input type="text" name="" placeholder="fast name" id="">
-                        <input type="text" name="" placeholder="fast name" id="">
+                <div class="flex flex-row items-center m-5 ">
+                    <div class=" items-center w-full ">
+                        <input type="text" placeholder="Type here" class="input w-full max-w-xs gap-2 p-5 m-5" />
+                        <input type="text" placeholder="Type here" class="input w-full max-w-xs gap-2 p-5 m-5" />
                     </div>
-                    <div class="w-1/2">
-                        <input type="text" name="" placeholder="fast name" id="">
-                        <input type="text" name="" placeholder="fast name" id="">
+                    <div class=" items-center w-full ">
+                        <input type="text" placeholder="Type here" class="input w-full max-w-xs gap-2 p-5 m-5" />
+                        <input type="text" placeholder="Type here" class="input w-full max-w-xs gap-2 p-5 m-5" />
+                    </div>
 
-                    </div>
+                </div>
+                <div>
+                    <textarea placeholder="Bio"
+                        class="textarea textarea-bordered textarea-lg w-full max-w-xs "></textarea>
                 </div>
 
 
                 <button
-                    class="flex text-center justify-center items-center w-full rounded-full cursor-pointer bg-[#ABEF5F] px-3.5 py-2   text-xl box-border font-bold  ">
+                    class="flex text-center justify-center items-center w-full h-14 rounded-full cursor-pointer bg-[#ABEF5F] px-3.5 py-2   text-xl box-border font-bold  ">
                     Sand Mail <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-8 text-[#ffffff] bg-[#1C1C1C] rounded-full mx-2 ">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -286,13 +324,15 @@
     </main>
 
     <!-- footer section -->
-    <footer class="bg-[#1C1C1C]   text-center  items-center md:px-20 px-5 py-12">
+    <footer class="bg-[#1C1C1C]   text-center  items-center md:px-20 px-5 py-24">
         <div>
-            <button  a class=" text-[#ffffff] text-center justify-center items-center rounded-3xl text-3xl box-border font-bold inline-flex"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                stroke-width="1.5" stroke="currentColor" class="size-8  bg-[#ABEF5F] text-[#1C1C1C] rounded-full m-2 ">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-            </svg>
-            Rinterio</a>
+            <button a
+                class=" text-[#ffffff] text-center justify-center items-center rounded-3xl text-3xl box-border font-bold inline-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-8  bg-[#ABEF5F] text-[#1C1C1C] rounded-full m-2 ">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+                Rinterio</a>
             </button>
 
             <p class="py-6 text-[#737373] md:text-base text-sm ">
@@ -302,7 +342,7 @@
         </div>
 
         <div class="text-[#E9E9E9]">
-            <ul class="flex md:flex-row flex-col md:gap-28 gap-8 justify-center pb-6" >
+            <ul class="flex md:flex-row flex-col md:gap-28 gap-8 justify-center pb-6">
                 <li><a>Home</a></li>
                 <li><a>Services</a></li>
                 <li><a>Portfolio</a></li>
@@ -311,13 +351,15 @@
             </ul>
         </div>
 
-        <button class="bg-[#ABEF5F] px-5 py-3 w-full md:w-fit text-center justify-center items-center rounded-3xl text-lg box-border font-bold inline-flex">
+        <button
+            class="bg-[#ABEF5F] px-5 py-3 w-full md:w-fit text-center justify-center items-center rounded-3xl text-lg box-border font-bold inline-flex">
             Book Consult<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-7 font-bold text-[#ffffff] bg-[#1C1C1C] rounded-full text-center mx-2 ">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                </svg>
+                stroke="currentColor"
+                class="size-7 font-bold text-[#ffffff] bg-[#1C1C1C] rounded-full text-center mx-2 ">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
 
-            </button>
+        </button>
     </footer>
 
 </body>
