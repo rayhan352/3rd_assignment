@@ -7,15 +7,10 @@
     <title>Assignment three</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- // <uniquifier>: Use a unique and descriptive class name
-        // <weight>: Use a value from 200 to 800
-        
-        .manrope-<uniquifier> {
-          font-family: "Manrope", sans-serif;
-          font-optical-sizing: auto;
-          font-weight: <weight>;
-          font-style: normal;
-        } -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+   
 
     <script>
         tailwind.config = {
@@ -32,9 +27,15 @@
             }
         }
     </script>
+    <style>
+        
+        .manrope-font {
+          font-family: "Manrope", sans-serif;
+        }
+    </style>
 </head>
 
-<body class="bg-body_bg">
+<body class="bg-body_bg manrope-font">
     <header class="bg-[#ffffff] pb-10 ">
         <!-- nav-section -->
         <div class="navbar bg-base-100 md:px-20 px-5 ">
@@ -255,7 +256,7 @@
                     </p>
                 </div>
                 <div class="  ">
-                    <div class= "flex md:flex-row flex-col">
+                    <div class="flex md:flex-row flex-col">
                         <div
                             class="  flex md:flex-row flex-col rounded-2xl col-span-4 bg-[#ffffff] shadow-xl border border-[#d4d3d3] m-6">
                             <div class="p-6 w-full items-center">
@@ -282,8 +283,7 @@
                         </div>
 
 
-                        <div
-                            class=" col-span-2 rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] my-6  p-6 ">
+                        <div class=" col-span-2 rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] my-6  p-6 ">
                             <img class="w-full" src="./assets/img2.png" alt="">
                         </div>
                         <div
@@ -291,7 +291,7 @@
                             <img class="w-full" src="./assets/img5.png" alt="">
                         </div>
                     </div>
-                    <div class= "flex md:flex-row flex-col" >
+                    <div class="flex md:flex-row flex-col">
                         <div
                             class="flex order-4 col-span-4 md:flex-row flex-col rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3]   ">
                             <div class="p-6 items-center w-full">
@@ -315,7 +315,7 @@
                             </div>
                         </div>
                         <div
-                            class=" order-3 w-fit col-span-1 rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3]  m-6 p-6 ">
+                            class=" order-3  col-span-1 rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3]  m-6 p-6 ">
                             <img class="w-full" src="./assets/img3.png" alt="">
                         </div>
                         <div
@@ -330,7 +330,7 @@
 
         <!--Let’s Connect-->
         <section
-            class="bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover border-white border-4 text-center align w-full md:px-20 px-5 py-16 my-2 ">
+            class="bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover border-white border-4 text-center align w-full md:px-20 px-5 py-16 my-1 ">
             <div class="container m-auto">
                 <div class="text-center">
                     <button
