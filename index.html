@@ -7,6 +7,16 @@
     <title>Assignment three</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- // <uniquifier>: Use a unique and descriptive class name
+        // <weight>: Use a value from 200 to 800
+        
+        .manrope-<uniquifier> {
+          font-family: "Manrope", sans-serif;
+          font-optical-sizing: auto;
+          font-weight: <weight>;
+          font-style: normal;
+        } -->
+
     <script>
         tailwind.config = {
             theme: {
@@ -227,104 +237,149 @@
         </section>
 
         <!-- Explore our Latest works -->
-        <section class=" container m-auto  md:px-20 px-5 py-6 my-5">
-            <div class="text-center">
-                <button
-                    class=" bg-[#ABEF5F33] shadow-xl px-3 py-1  inline-flex text-3x1 box-border font-bold rounded-full mx-2 gap-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                    </svg>Explore our Latest works
-                </button>
-                <h1 class="  md:text-5xl text-3xl  text-[#212121] font-bold py-3">Our Latest Portfolio</h1>
-                <p class="p-6 text-[#494949] md:text-base text-sm ">The barn house captivates with its blend of rustic
-                    charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
-                </p>
-            </div>
+        <section class="md:px-20 px-5 py-6 bg-white">
+            <div class="container m-auto ">
+                <div class="text-center">
+                    <button
+                        class=" bg-[#ABEF5F33] shadow-xl px-3 py-1  inline-flex text-3x1 box-border font-bold rounded-full mx-2 gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg>Explore our Latest works
+                    </button>
+                    <h1 class="  md:text-5xl text-3xl  text-[#212121] font-bold py-3">Our Latest Portfolio</h1>
+                    <p class="p-6 text-[#494949] md:text-base text-sm ">The barn house captivates with its blend of
+                        rustic
+                        charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
+                    </p>
+                </div>
+                <div class="  ">
+                    <div class= "flex md:flex-row flex-col">
+                        <div
+                            class="  flex md:flex-row flex-col rounded-2xl col-span-4 bg-[#ffffff] shadow-xl border border-[#d4d3d3] m-6">
+                            <div class="p-6 w-full items-center">
+                                <img class=" w-fit" src="./assets/img1.png" alt="">
 
-            <div class="justify-center">
-                <div class="flex">
-                    <div class="class= flex rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] m-6 p-6 ">
-                        <img src="./assets/img1.png" alt="">
+                            </div>
+
+                            <div class="p-6">
+                                <h1 class="text-2xl font-bold  text-[#1C1C1C]">Commercial</h1>
+                                <p class="text-[#737373] text-base py-4">The barn house captivates with its blend of
+                                    rustic charm and modern. The barn house captivates with its blend of rustic
+                                    charm and modern .
+                                </p>
+                                <button class="rounded-3xl text-xl font-bold flex flex-row">
+                                    View
+                                    Details <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor"
+                                        class="size-7 font-bold bg-[#ABEF5F] rounded-full text-center mx-2 ">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <div
+                            class=" col-span-2 rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] my-6  p-6 ">
+                            <img class="w-full" src="./assets/img2.png" alt="">
+                        </div>
+                        <div
+                            class=" col-span-1 md:hidden class= flex rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] my-6 p-6 ">
+                            <img class="w-full" src="./assets/img5.png" alt="">
+                        </div>
                     </div>
-                    <div>
-                        <h1 class="md:text-xl text-base font-bold py-2 text-[#1C1C1C]">Commercial</h1>
-                        <p class="text-[#737373] text-base">The barn house captivates with its blend of rustic charm and
-                            modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                    <div class= "flex md:flex-row flex-col" >
+                        <div
+                            class="flex order-4 col-span-4 md:flex-row flex-col rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3]   ">
+                            <div class="p-6 items-center w-full">
+                                <img class="w-fit" src="./assets/img4.png" alt="">
+                            </div>
+                            <div class="p-6  ">
+                                <h1 class="text-2xl font-bold  text-[#1C1C1C]">Commercial</h1>
+                                <p class="text-[#737373] text-base py-4">The barn house captivates with its blend of
+                                    rustic charm and modern. The barn house captivates with its blend of rustic charm
+                                    and modern .
+                                </p>
+                                <button class="rounded-3xl text-xl font-bold flex flex-row">
+                                    View
+                                    Details <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor"
+                                        class="size-7 font-bold bg-[#ABEF5F] rounded-full text-center mx-2 ">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div
+                            class=" order-3 w-fit col-span-1 rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3]  m-6 p-6 ">
+                            <img class="w-full" src="./assets/img3.png" alt="">
+                        </div>
+                        <div
+                            class=" order-6  col-span-1 rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3]  m-6 p-6 ">
+                            <img class="w-full" src="./assets/img5.png" alt="">
+                        </div>
                     </div>
                 </div>
-
-
-                <div class="class= flex rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] m-6 p-6 ">
-                    <img src="./assets/img2.png" alt="">
-                </div>
-                <div class="class= flex rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] m-6 p-6 ">
-                    <img src="./assets/img5.png" alt="">
-                </div>
             </div>
-            <div>
-                <div class="class= flex rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] m-6 p-6 ">
-                    <img src="./assets/img4.png" alt="">
-                </div>
-                <div class="class= flex rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] m-6 p-6 ">
-                    <img src="./assets/img3.png" alt="">
-                </div>
-                <div class="class= flex rounded-2xl bg-[#ffffff] shadow-xl border border-[#d4d3d3] m-6 p-6 ">
-                    <img src="./assets/img5.png" alt="">
-                </div>
-            </div>
-
 
         </section>
 
         <!--Let’s Connect-->
-        <section class="bg-[url('.bg.jpg')] text-center align md:px-20 px-5 py-24">
-            <div class="text-center">
-                <button
-                    class=" bg-[#ABEF5F33] shadow-xl px-3 py-1  inline-flex text-3x1 box-border font-bold rounded-full mx-2 gap-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                    </svg> Let’s Connect
-                </button>
-                <h1 class="  md:text-5xl text-3xl  text-[#212121] font-bold py-3"> Let’s Discuss Next Project</h1>
-                <p class="p-6 text-[#494949] md:text-base text-sm ">The barn house captivates with its blend of rustic
-                    charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
-                </p>
-            </div>
-            <div>
-                <div class="flex flex-row items-center m-5 ">
-                    <div class=" items-center w-full ">
-                        <input type="text" placeholder="Type here" class="input w-full max-w-xs gap-2 p-5 m-5" />
-                        <input type="text" placeholder="Type here" class="input w-full max-w-xs gap-2 p-5 m-5" />
-                    </div>
-                    <div class=" items-center w-full ">
-                        <input type="text" placeholder="Type here" class="input w-full max-w-xs gap-2 p-5 m-5" />
-                        <input type="text" placeholder="Type here" class="input w-full max-w-xs gap-2 p-5 m-5" />
-                    </div>
-
+        <section
+            class="bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover border-white border-4 text-center align w-full md:px-20 px-5 py-16 my-2 ">
+            <div class="container m-auto">
+                <div class="text-center">
+                    <button
+                        class=" bg-[#ABEF5F33] shadow-xl px-3 py-1  inline-flex text-3x1 box-border font-bold rounded-full mx-2 gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg> Let’s Connect
+                    </button>
+                    <h1 class="  md:text-5xl text-3xl  text-[#212121] font-bold py-3"> Let’s Discuss Next Project</h1>
+                    <p class="p-6 text-[#494949] md:text-base text-sm ">The barn house captivates with its blend of
+                        rustic
+                        charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.
+                    </p>
                 </div>
-                <div>
-                    <textarea placeholder="Bio"
-                        class="textarea textarea-bordered textarea-lg w-full max-w-xs "></textarea>
+                <div class="container m-auto py-2 px-2 ">
+                    <div class=" grid md:grid-cols-2 grid-cols-1 gap-5 py-4 my-6">
+                        <input type="text" placeholder="Fast Name*"
+                            class="outline-none text-base font-medium py-4 w-full px-6 rounded-full ">
+                        <input type="text" placeholder="Last Name*"
+                            class="outline-none text-base font-medium py-4 w-full px-6 rounded-full ">
+                        <input type="text" placeholder="Phone Number*"
+                            class="outline-none text-base font-medium py-4 w-full px-6 rounded-full ">
+                        <input type="text" placeholder="Email Number*"
+                            class="outline-none text-base font-medium py-4 w-full px-6 rounded-full ">
+                        <textarea type="text" placeholder="Write your message here*"
+                            class=" outline-none text-base font-medium py-4 w-full px-6 md:col-span-2 rounded-2xl"
+                            rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button
+                            class="flex text-center justify-center items-center w-full h-14 rounded-full cursor-pointer bg-[#ABEF5F] px-3.5 py-2   text-xl box-border font-bold  ">
+                            Sand Mail <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor"
+                                class="size-8 text-[#ffffff] bg-[#1C1C1C] rounded-full mx-2 ">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
 
-
-                <button
-                    class="flex text-center justify-center items-center w-full h-14 rounded-full cursor-pointer bg-[#ABEF5F] px-3.5 py-2   text-xl box-border font-bold  ">
-                    Sand Mail <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-8 text-[#ffffff] bg-[#1C1C1C] rounded-full mx-2 ">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                    </svg>
-                </button>
-            </div>
         </section>
 
     </main>
 
     <!-- footer section -->
-    <footer class="bg-[#1C1C1C]   text-center  items-center md:px-20 px-5 py-24">
+    <footer class="bg-[#1C1C1C]   text-center  items-center md:px-20 px-5 py-16">
         <div>
             <button a
                 class=" text-[#ffffff] text-center justify-center items-center rounded-3xl text-3xl box-border font-bold inline-flex">
